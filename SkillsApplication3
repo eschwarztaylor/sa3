@@ -1,0 +1,33 @@
+#Skills application 3 - taking the training wheels off!
+
+#For this exercise you will obtain sequencing reads from Sars-CoV-2 and
+#align them to the Sars-CoV-2 reference genome using bowtie2 (not bwa).
+#As you see below I've given minimal instructions but the entire workflow is
+#similar to what we did with bwa and the ecoli genome.
+
+#your final product will consist of 3 things that should all be pushed to github:
+# 1) this document that should be complete with commenting
+#    (taking notes that have the # in front) and every piece of code you use.
+# 2) your final launcher.slurm script for this assignment
+# 3) a screenshot of Geneious with the reads mapped.
+
+Instructions
+# Obtain the forward (R1) and reverse (R2) fastq.gz reads from
+# https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR14230036 (under "original format")
+# Do not download these to your computer - download into Stampede2 directly
+
+# Obtain the Sars-CoV-2 reference genome named sarscov2.fasta from the git
+# repository for this assignment and get it into Stampede2
+
+# Map the R1 and R2 sequence files to the reference genome using bowtie2
+
+# convert the .sam output into a .bam file using samtools
+
+# visualize your mapped reads in Geneious
+
+# take a screenshot of Geneious with mapped reads obvious
+
+# upload this text file with your added notes and code,
+# your launcher.slurm job script, and
+# your Geneious screenshot to the github assignment
+# Done!
